@@ -10,3 +10,9 @@
   btn.href     = url;
   btn.target   = '_blank';
   btn.download = 'documento-apto-' + apt + '.pdf';
+
+btn.addEventListener('click', () => {
+  setTimeout(() => {
+    alert('Download concluído!');
+  }, 500);
+});
