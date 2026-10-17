@@ -61,7 +61,4 @@
   .natal-hat { width: 90px; height: 90px; }
 }
 
-/* Respeita quem desativa animações no aparelho */
-@media (prefers-reduced-motion: reduce) {
-  .xl-a, .xl-b { animation: none; }
-}
+
