@@ -78,7 +78,7 @@
     });
 
     resize();
-    if (reduceMotion) { draw(); } else { requestAnimationFrame(step); }
+   requestAnimationFrame(step);
   }
 
   /* ---------- PISCA-PISCA (SVG recalculado conforme a largura) ---------- */
